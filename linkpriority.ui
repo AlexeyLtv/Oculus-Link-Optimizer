@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LinkPriority</class>
+ <widget class="QMainWindow" name="LinkPriority">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>358</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LinkPriority</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	
+	font: 10pt &quot;Segoe UI&quot;;
+    border: none;
+    color: rgb(0, 255, 0);
+    background-color: rgb(23, 26, 31);
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+QPushButton:Hover
+{
+    background-color: rgb(71, 71, 71);
+}
+QPushButton:pressed
+{
+    color: rgb(23, 26, 31);
+    background-color: rgb(0, 255, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Set Priority</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>260</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 10pt &quot;Segoe UI&quot;;
+    border: none;
+    color: rgb(80, 91, 108);
+}
+QPushButton:Hover
+{
+	color: white;
+    background-color: rgb(23, 26, 31);
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+QPushButton:pressed
+{
+    border: none;
+    color: rgb(80, 91, 108);
+	background-color: gray;
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Realtime</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>320</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 10pt &quot;Segoe UI&quot;;
+    border: none;
+    color: rgb(80, 91, 108);
+}
+QPushButton:Hover
+{
+	color: white;
+    background-color: rgb(23, 26, 31);
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+QPushButton:pressed
+{
+    border: none;
+    color: rgb(80, 91, 108);
+	background-color: gray;
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>High</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>380</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 10pt &quot;Segoe UI&quot;;
+    border: none;
+    color: rgb(80, 91, 108);
+}
+QPushButton:Hover
+{
+	color: white;
+    background-color: rgb(23, 26, 31);
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+QPushButton:pressed
+{
+    border: none;
+    color: rgb(80, 91, 108);
+	background-color: gray;
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Above Normal</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>440</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 10pt &quot;Segoe UI&quot;;
+    border: none;
+    color: rgb(80, 91, 108);
+}
+QPushButton:Hover
+{
+	color: white;
+    background-color: rgb(23, 26, 31);
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+QPushButton:pressed
+{
+    border: none;
+    color: rgb(80, 91, 108);
+	background-color: gray;
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>550</y>
+      <width>171</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	
+	font: 9pt &quot;Segoe UI&quot;;
+    border: none;
+    color: gray;
+}</string>
+    </property>
+    <property name="text">
+     <string>Change Default Installation</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Path">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>590</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	
+	font: 8pt &quot;Segoe UI&quot;;
+    border: none;
+    color: white;
+    background-color: rgb(23, 26, 31);
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+QLineEdit:Hover
+{
+    background-color: rgb(39, 45, 53)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>C:\Program Files\Oculus</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Save">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>590</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	
+	font: 10pt &quot;Segoe UI&quot;;
+    border: none;
+    color: rgb(23, 26, 31);
+    background-color: rgb(0, 255, 0);
+    border-radius: 15px; /* Adjust this value for more or less rounded corners */
+    padding: 10px; /* Optional: adjust padding to fit your design */
+}
+QPushButton:Hover
+{
+    background-color: rgb(71, 71, 71);
+}
+QPushButton:pressed
+{
+    color: rgb(23, 26, 31);
+    background-color: rgb(0, 255, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>20</y>
+      <width>171</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	
+	font: 11pt &quot;Segoe UI&quot;;
+    border: none;
+    color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Link Priority</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
